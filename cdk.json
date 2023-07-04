@@ -13,6 +13,15 @@
     ]
   },
   "context": {
+    "environmentName": "prod",
+    "applicationName": "module5",
+    "region": "eu-central-1",
+    "az1": "eu-central-1a",
+    "az2": "eu-central-1b",
+    "appAmiImageName": "module4-linux-instance-1.0-image",
+    "instanceKeyPairName": "EpamLabModule4AppKeyPair",
+    "s3Arn": "arn:aws:s3:::prod-module5-app-bucket",
+    "dbUser": "admin",
     "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
     "@aws-cdk/core:checkSecretUsage": true,
     "@aws-cdk/core:target-partitions": [
